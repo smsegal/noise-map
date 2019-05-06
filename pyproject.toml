@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dncnn_keras"
+version = "0.1.0"
+description = ""
+authors = ["Shane Segal <smsegal@eecs.yorku.ca>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+tensorflow-gpu = "^1.13"
+numpy = "^1.16"
+opencv-python = "^4.1"
+keras = "^2.2"
+jupyter = "^1.0"
+scikit-image = "^0.15.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
